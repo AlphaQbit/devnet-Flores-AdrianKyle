@@ -6,6 +6,7 @@ Student: [Flores, Adrian Kyle M.]
 
 pets = []  # starts empty — the user adds pets as the program runs
 
+
 def display_menu():
     print("1. Add a pet")
     print("2. View all pets")
@@ -13,14 +14,20 @@ def display_menu():
     print("4. Find a pet by name")
     print("5. Remove a pet")
     print("6. Exit")
-    # print the menu, return the user's choice
+    return(int(input("Enter a number: ")))
     pass
 
 def add_pet(pet_list):
-    # ask for name, animal type, status — build the string, add to the list
-    pass
+    name = input("Name of the Pet: ")
+    type = input("Type of the Pet: ")
+    status = input("Status of the pet: ")
+    pet = f"Name:{name}, Type:{type}, Status:{status}"
+    pet_list.append(pet)
 
 def view_pets(pet_list):
+    for pet in pet_list:
+      print(pet)
+
     # loop through and print every pet — handle empty list
     pass
 
@@ -53,11 +60,11 @@ def main():
             remove_pet(pets)
         elif choice == 6:
             print("Bye!")
-            break
+            running = False
         else:
             print("Invalid!")
+            break
     pass
         # use if/elif to call the right function based on choice
         # set running = False when the user picks Exit
-
 main()
