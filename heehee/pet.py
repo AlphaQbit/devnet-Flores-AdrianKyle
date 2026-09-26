@@ -49,7 +49,14 @@ def main():
             count_available_adopted(pets)
         elif choice == 4:
             find_pet(pets)
-            running = False
+        elif choice == 5:
+            remove_pet(pets)
+        elif choice == 6:
+            print("Bye!")
+            break
+        else:
+            print("Invalid!")
+    pass
         # use if/elif to call the right function based on choice
         # set running = False when the user picks Exit
 
