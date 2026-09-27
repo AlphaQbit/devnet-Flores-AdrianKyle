@@ -1,46 +1,57 @@
-"""
-Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+# Module 2 — Lesson 3: Loops & Lists
+# Student: Adrian Kyle Flores
+# Date: 9/27/2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+lists and loops are used when i need to work with multiple pieces of information. a list lets me store many values in one variable and a loop lets me go through those values one by one
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
-(add more as needed)
+- list: stores multiple values in one variable
+- loop: repeats code multiple times
+- for loop: repeats code for each item in a list
+- item: one value inside a list
+- range: creates a sequence of numbers
 
 
 ============================================
-MY OWN EXAMPLE(S)
+CODE
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
-"""
 
-# --- your code example goes here ---
+students = ["Adrian", "Gideon", "Joab", "Rowel"]
+
+for student in students:
+    print("Student:", student)
 
 
-"""
+numbers = [1, 2, 3, 4, 5]
+
+for number in numbers:
+    print("Number:", number)
+
+
+for i in range(5):
+    print("count:", i)
+
+
 ============================================
-A MISTAKE I MADE (or one I want to avoid)
+WHAT I LEARNED
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+i learned that lists can store multiple values and loops can go through the values without me having to write the same code again
+
+
+============================================
+A MISTAKE I MADE
+============================================
+i sometimes forget to create the list before using it in the loop. i also need to make sure the variable names are the same
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
-"""
+loops and lists are useful when working with a lot of information. instead of writing the same code many times i can use a loop to do it for me
