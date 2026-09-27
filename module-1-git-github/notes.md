@@ -1,43 +1,45 @@
-# Module 1 — Git & GitHub
+# Module 1 — git & github
 
-**Student:** [your name]
-**Date:** [date]
-
----
-
-## What is Git? What is GitHub? (explain like you're teaching a friend who's never used either)
-
-[Write your own explanation here. What problem does Git actually solve? How is GitHub different from Git itself?]
+**Student:** Adrian Kyle Flores  
+**Date:** 9/27/2026
 
 ---
 
-## Key vocabulary (in your own words)
+## What is git? What is github?
 
-- repository:
-- commit:
-- branch:
-- push / pull:
-- pull request:
-- merge conflict:
+git is used to keep track of changes in a project it helps me save my work and see what i changed before and is where i can upload my git projects online i can also use it to share my code and work with other people git keeps track of my code and github keeps it online
 
 ---
 
-## Walking through what I did
+## Key Vocabulary
 
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+- **repository:** basically the project folder that git is tracking
+- **commit:** saves the changes i made
+- **branch:** a separate version of the project where i can work on something
+- **push / pull:** push sends my changes to github pull gets changes from github
+- **pull request:** used when i want to add changes from one branch to another
+- **merge conflict:** happens when git finds changes that it can't automatically combine
+
+---
+
+## Walking through what i did
+
+first i checked my files using `git status` then i added my changes made a commit and pushed it to github
 
 ```
-# paste your actual commands here
-```
+git status
+git add 
+git commit -m "module 1 done"
+git push
 
----
+```
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+sometimes i can forget which branch i'm working on this can be a problem if i make changes on the wrong branch
 
 ---
 
 ## How this connects to something else
 
-[Optional: how does version control relate to anything else you've learned or used before?]
+git is useful for coding because i change my code a lot instead of making a new copy of my project every time git keeps track of the changes for me

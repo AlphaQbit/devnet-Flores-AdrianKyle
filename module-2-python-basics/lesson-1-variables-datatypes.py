@@ -1,47 +1,52 @@
-"""
-Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+# Module 2 — Lesson 1: Variables & Data Types
+# Student: Adrian Kyle Flores
+# Date: 9/27/2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+variables are used to store information in a program like names numbers and true or false values
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
-- data type:
-- int:
-- float:
-- string:
-- boolean:
-(add more as needed)
+- variable: stores a value that i can use later
+- string: text inside quotation marks
+- integer: a whole number
+- float: a number with a decimal
+- boolean: a value that is either true or false
 
 
 ============================================
-MY OWN EXAMPLE(S)
+CODE
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
-"""
 
-# --- your code example goes here ---
+name = "Adrian"
+age = 20
+height = 6.0
+is_student = True
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Student:", is_student)
 
 
-"""
 ============================================
-A MISTAKE I MADE (or one I want to avoid)
+WHAT I LEARNED
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+i learned that variables can store different types of information. strings are used for text integers are whole numbers floats have decimals and booleans are true or false
+
+
+============================================
+A MISTAKE I MADE
+============================================
+i sometimes forget that text needs quotation marks. without them python can think that the word is another variable
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
-"""
+variables are useful in almost every program because programs need to store information and use it later
